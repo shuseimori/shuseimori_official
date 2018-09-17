@@ -1,0 +1,19 @@
+@media(max-width:1000px){
+  .header-list{
+    display:none;
+  }
+  .menu-icon-wrapper{
+    display:block;
+  }
+  .logo{
+    display:block;
+    position:relative;
+    right:-42%;
+    height:32px;
+    width:128px;
+  }
+
+  .header-menu{
+    display:none;
+  }
+}
