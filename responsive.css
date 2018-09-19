@@ -14,4 +14,12 @@
   .header-menu{
     display:none;
   }
+
+}
+
+@media(max-width:640px){
+  .photo img{
+    width:360px;
+    height:240px;
+  }
 }
