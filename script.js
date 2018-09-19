@@ -110,4 +110,27 @@ $(function(){
   $("#show-menu").click(function(){
     $(".header-menu").slideToggle();
   })
+
+  $(".change-btn").click(function(){
+    var $displayPhoto = $(".active");
+    $displayPhoto.removeClass("active");
+
+    if($(this).hasClass("next-btn")){
+     $displayPhoto.next().addClass("active");
+   } else {
+     $displayPhoto.prev().addClass("active");
+   }
+
+   $(".change-btn").show();
+
+     var slideIndex = $(".photo").index($(".active"));
+     if(slideIndex == 0){
+       $(".prev-btn").hide();
+     } else if(slideIndex == $(".photo").length-1){
+       $(".next-btn").hide();
+     }
+
+   });
+
+
 });
