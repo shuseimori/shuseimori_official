@@ -59,6 +59,7 @@ header{
   right:0px;
   border-radius:10px;
   padding:0;
+  z-index:5;
 }
 
 .header-menu li{
