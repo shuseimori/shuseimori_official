@@ -59,7 +59,6 @@ header{
   right:0px;
   border-radius:10px;
   padding:0;
-  z-index:5;
 }
 
 .header-menu li{
@@ -138,7 +137,7 @@ h1{
 }
 .prev-btn{
   float:left;
-  /*display:none;*/
+  display:none;
   padding-left:20%;
 }
 
